@@ -7,6 +7,8 @@ def reverse_each_word(argument)
       while end_loop > 0
         end_loop -= 1 
         new_words += word[end_loop]
+      end
+      
    
    
    
