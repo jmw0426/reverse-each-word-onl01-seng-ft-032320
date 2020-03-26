@@ -20,9 +20,9 @@ def reverse_each_word(argument)
    words.collect do |word|
       end_sequence = word.length 
       new_words = ''
-      while end_loop > 0
-        end_loop -= 1 
-        new_words += word[end_loop]
+      while end_sequence > 0
+        end_sequence -= 1 
+        new_words += word[end_sequence]
       end
       sentence << new_words
     end
