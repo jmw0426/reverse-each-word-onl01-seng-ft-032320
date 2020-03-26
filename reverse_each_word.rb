@@ -10,7 +10,7 @@ def reverse_each_word(argument)
       end
       sentence << reverse_whole_string(word)
     end
-    
+    sentence.
    
    
    
