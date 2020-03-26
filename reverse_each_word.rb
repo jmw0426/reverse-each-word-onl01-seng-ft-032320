@@ -8,7 +8,7 @@ def reverse_each_word(argument)
         end_loop -= 1 
         new_words += word[end_loop]
       end
-      sentence << new_words(word)
+      sentence << new_words
     end
     sentence.join(' ')
 end
