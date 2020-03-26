@@ -2,11 +2,11 @@ def reverse_each_word(argument)
    words = argument.split(" ")
    sentence = []
    words.each do |word|
-      end_loop = word.length 
+      end_sequence = word.length 
       new_words = ''
       while end_loop > 0
-        end_loop -= 1 
-        new_words += word[end_loop]
+        end_sequence -= 1 
+        new_words += word[end_sequence]
       end
       sentence << new_words
     end
@@ -18,7 +18,7 @@ def reverse_each_word(argument)
    words = argument.split(" ")
    sentence = []
    words.collect do |word|
-      end_loop = word.length 
+      end_sequence = word.length 
       new_words = ''
       while end_loop > 0
         end_loop -= 1 
