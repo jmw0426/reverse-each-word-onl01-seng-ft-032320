@@ -1,7 +1,7 @@
 def reverse_each_word(argument)
    array = []
   
-  argument = array[] 
+  argument = array
   
   array.split
   
