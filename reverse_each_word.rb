@@ -3,10 +3,6 @@ def reverse_each_word(argument)
   
   argument = array
   
-  array.split
-  
-  array.reverse_each_word
-  
 end
   
  
